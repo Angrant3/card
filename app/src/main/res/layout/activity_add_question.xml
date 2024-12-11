@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:ignore="ExtraText"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="29dp">
+
+
+
+    <ImageView
+        android:id="@+id/bg"
+        android:layout_width="512dp"
+        android:layout_height="961dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/bg2"
+        tools:layout_editor_absoluteX="-27dp"
+        tools:layout_editor_absoluteY="-5dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/rollback"
+        android:layout_width="42dp"
+        android:layout_height="39dp"
+        android:contentDescription="pic"
+        android:onClick="goToMain"
+        android:src="@drawable/rollback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="300dp"
+        android:layout_height="261dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="676dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="99dp"
+        android:layout_height="88dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Thêm Câu Hỏi"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="351dp"
+        android:layout_height="78dp"
+        android:hint="Câu hỏi"
+        android:textColor="#10B1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText" />
+
+    <EditText
+        android:id="@+id/answerEditText"
+        android:layout_width="350dp"
+        android:layout_height="92dp"
+        android:layout_margin="16dp"
+        android:layout_marginTop="16dp"
+        android:hint="Đáp án"
+        android:textColor="#10B1A1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/questionEditText" />
+
+    <Button
+        android:id="@+id/viewQuestionsButton"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:text="Danh sách câu hỏi"
+        android:onClick="goToquestlist"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:backgroundTint="#79B4D5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/addButton"
+        app:layout_constraintTop_toTopOf="@id/addButton" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="0dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="Thêm"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:backgroundTint="#79B4D5"
+        app:layout_constraintEnd_toStartOf="@id/viewQuestionsButton"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/answerEditText" />
+
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="200dp"
+        android:layout_height="159dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="157dp"
+        android:layout_height="121dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

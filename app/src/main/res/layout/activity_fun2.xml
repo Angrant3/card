@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9E7DD"
+    tools:context=".funthing.FunActivity2">
+
+    <!-- Khu vực hiển thị điểm -->
+    <TextView
+        android:id="@+id/diem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Điểm: 0"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- TextView hiển thị thời gian -->
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Thời gian: 5s"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TextView hiển thị câu hỏi -->
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Câu hỏi sẽ hiển thị ở đây"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toBottomOf="@id/diem"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5" />
+
+    <!-- Danh sách các đáp án -->
+    <GridLayout
+        android:id="@+id/answersGridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:columnCount="2"
+        android:rowCount="5"
+        app:layout_constraintTop_toBottomOf="@id/questionTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Các nút đáp án -->
+        <Button
+            android:id="@+id/answerButton1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 1"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 2"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 3"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 4"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 5"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 6"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 7"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 8"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 9"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+        <Button
+            android:id="@+id/answerButton10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:text="Đáp án 10"
+            android:textColor="@android:color/white"
+            android:backgroundTint="@android:color/holo_blue_light" />
+
+    </GridLayout>
+
+    <!-- Nút nộp bài -->
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:text="Nộp bài"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@android:color/holo_green_dark"
+        app:layout_constraintTop_toBottomOf="@id/answersGridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

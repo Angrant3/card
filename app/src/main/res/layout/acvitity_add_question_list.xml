@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1"
+    tools:context=".addquestion.AddQuestionListActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="407dp"
+        android:layout_height="814dp"
+        android:backgroundTint="#A3BCCC"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/rollback"
+        android:layout_width="78dp"
+        android:layout_height="52dp"
+        android:contentDescription="pic"
+        android:onClick="goToMainaddquestion"
+        android:src="@drawable/rollback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="72dp"
+        android:layout_height="57dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.305" />
+    <ImageView
+        android:id="@+id/logo3"
+        android:layout_width="300dp"
+        android:layout_height="261dp"
+        android:layout_marginStart="228dp"
+        android:layout_marginTop="676dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="99dp"
+        android:layout_height="88dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.192"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.399" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="200dp"
+        android:layout_height="159dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.393"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.742" />
+
+    <ImageView
+        android:id="@+id/logo5"
+        android:layout_width="157dp"
+        android:layout_height="121dp"
+        android:clickable="true"
+        android:contentDescription="logo"
+        android:focusable="true"
+        android:src="@drawable/ellipse_302"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.561" />
+</androidx.constraintlayout.widget.ConstraintLayout>

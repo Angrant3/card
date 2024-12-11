@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>[
+    {
+    "stt": 1,
+    "name": "Player 1",
+    "score": 100
+    },
+    {
+    "stt": 2,
+    "name": "Player 2",
+    "score": 80
+    },
+    {
+    "stt": 3,
+    "name": "Player 3",
+    "score": 95
+    }
+    ]
+</resources>

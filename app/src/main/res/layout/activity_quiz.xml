@@ -1,0 +1,110 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgquizchose"
+    tools:context=".tracnghiem.QuizMainActivity">
+
+    <ImageView
+        android:id="@+id/pic"
+        android:layout_width="382dp"
+        android:layout_height="234dp"
+        android:layout_marginTop="156dp"
+        android:contentDescription="pic"
+        android:src="@drawable/bgezquest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/piclogo"
+        android:layout_width="218dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="176dp"
+        android:contentDescription="pic"
+        android:src="@drawable/bgezquestlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/pic3"
+        android:layout_width="381dp"
+        android:layout_height="294dp"
+        android:layout_marginTop="220dp"
+        android:contentDescription="pic"
+        android:src="@drawable/bgezquest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/detail" />
+
+    <Button
+        android:id="@+id/btgotoHardmode"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="304dp"
+        android:backgroundTint="#269264"
+        android:onClick="goTohardmode"
+        android:text="Bài Tập Khó"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/piclogo1"
+        android:layout_width="218dp"
+        android:layout_height="167dp"
+        android:layout_marginBottom="240dp"
+        android:contentDescription="pic"
+        android:src="@drawable/bghardquestlogo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btgotoEzmode"
+        android:layout_width="149dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="232dp"
+        android:backgroundTint="#269264"
+        android:onClick="goToezmode"
+        android:text="Bài Tập Dễ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/rollback"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="pic"
+        android:onClick="goToMain"
+        android:src="@drawable/rollback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/detail"
+        android:layout_width="558dp"
+        android:layout_height="281dp"
+        android:layout_marginBottom="664dp"
+        android:contentDescription="pic"
+        android:src="@drawable/bgquestdetail"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.387"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

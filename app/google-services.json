@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "546441734556",
+    "firebase_url": "https://frdata-4c855-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "frdata-4c855",
+    "storage_bucket": "frdata-4c855.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546441734556:android:c8c4012d57b74dd9698059",
+        "android_client_info": {
+          "package_name": "com.example.flashcard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnnDwrmXj7PeCjpaB9UkIRXd05c57YfbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546441734556:android:ab0605bfb234fd7c698059",
+        "android_client_info": {
+          "package_name": "com.example.fpdata"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnnDwrmXj7PeCjpaB9UkIRXd05c57YfbM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

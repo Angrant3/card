@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Flashcard"
+        tools:targetApi="31">
+        <activity
+            android:name=".home.HomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ontap.ReviewActivity"/>
+        <activity android:name=".tracnghiem.QuizMainActivity"/>
+        <activity android:name=".tracnghiem.QuizNormalActivity"/>
+        <activity android:name=".tracnghiem.QuizHardActivity"/>
+        <activity android:name=".addquestion.AddQuestionActivity"/>
+        <activity android:name=".funthing.FunActivity1"/>
+        <activity android:name=".funthing.FunActivity2"/>
+        <activity android:name=".funthing.FunActivity"/>
+        <activity android:name=".funthing.FunActivityScoreList"/>
+        <activity android:name=".funthing.FunActivityALLScoreList"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".home.Home1Activity" />
+        <activity android:name=".home.Home2Activity" />
+        <activity android:name=".home.Home3Activity" />
+        <activity android:name=".home.Home4Activity" />
+        <activity android:name=".addquestion.AddQuestionListActivity" />
+        <activity android:name=".home.RegisterActivity" />
+
+
+
+
+    </application>
+
+</manifest>

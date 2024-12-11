@@ -1,0 +1,79 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgquizchose"
+    tools:context=".tracnghiem.QuizMainActivity">
+
+
+
+
+
+    <ImageView
+        android:id="@+id/rollback"
+        android:layout_width="61dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="pic"
+        android:onClick="goToFunMain"
+        android:src="@drawable/rollback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.037"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/btnEasyMode"
+        android:layout_width="168dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="112dp"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:text="VUI"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.098"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnAllScoreList"
+        android:layout_width="181dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:text="Danh sách điểm tất cả"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnScoreList" />
+
+    <Button
+        android:id="@+id/btnScoreList"
+        android:layout_width="169dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:text="Danh sách điểm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.111"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnHardMode" />
+
+    <Button
+        android:id="@+id/btnHardMode"
+        android:layout_width="166dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@android:color/holo_red_light"
+        android:text="Chế độ khó"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.118"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnEasyMode" />
+
+    <!-- Nút danh sách điểm cá nhân -->
+
+    <!-- Nút danh sách điểm tất cả người chơi -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
